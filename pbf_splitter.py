@@ -145,4 +145,6 @@ min_lat, min_lon, max_lat, max_lon = 106.87541553986095,47.91294367810841,106.89
 
 extract_osm_data(pbf_input, osm_output)
 
+
+# 画出osm_output文件的地图
 plot_osm_with_osmnx(osm_output, min_lat, min_lon, max_lat, max_lon)
